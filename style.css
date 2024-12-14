@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+  padding: 2em;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(17, 17, 17);
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: white;
+}
+
+.input_el {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.4em;
+  width: 100%;
+  margin: 0.7em;
+  border-radius: 5px;
+  border: none;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.save_input,
+.delete_input {
+  cursor: pointer;
+  width: 45%;
+  padding: 0.4em;
+  letter-spacing: 1.3px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.2s ease-in;
+  font-size: 0.9em;
+}
+
+.save_input {
+  background-color: white;
+  color: white;
+}
+
+.save_input:hover {
+  background-color: white;
+  color: black;
+}
+
+.save_input:active,
+.delete_input:active {
+  transform: scale(0.87);
+}
+
+.delete_input {
+  background-color: black;
+}
+
+.delete_input:hover {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  width: 100%;
+  color: white;
+  list-style-type: none;
+  padding: 1em 1em 1em 0;
+  text-align: start;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 0.87em;
+  margin: 0;
+}
+
+a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+  min-width: 100%;
+}
+
+a:hover {
+  color: rgb(0, 195, 255);
+}
+
+.fa-x {
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+.fa-x:hover {
+  color: rgba(237, 19, 59, 0.885);
+  transform: scale(2);
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  transition: all 7s ease-in;
+}
+
+.del-item {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 0.7em;
+  padding: 0;
+}
